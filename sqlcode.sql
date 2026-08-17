@@ -1,4 +1,3 @@
-```sql
 WITH cte_product_summary AS(
 	SELECT 
 		m.MonthKey,
@@ -113,4 +112,3 @@ SELECT
         AS DECIMAL(18,2)
     ) AS PVM_Check
 FROM cte_mix;
-```
